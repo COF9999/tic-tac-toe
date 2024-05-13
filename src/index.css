@@ -1,0 +1,71 @@
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.root{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+.container-winner{
+  background-color: rgb(11, 226, 58);
+  height: 20vh;
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-winner > p{
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+
+.game-board{
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: whitesmoke;
+  border: 5px rgb(0, 0, 0) solid;
+  width: 60vw;
+}
+
+
+.square-board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.one-square{
+  border-bottom: 1px rgb(0, 0, 0) solid;
+  border-right: 1px rgb(0, 0, 0) solid;
+  max-height: 200px;
+}
+
+.turn-of-board{
+  background-color: rgb(59, 60, 60);
+  margin-top: 40px;
+  height: 10vh;
+  width: 40%;
+  border-radius: 5px;
+}
+
+.span-turn{
+  color: white;
+}
+
+
+
